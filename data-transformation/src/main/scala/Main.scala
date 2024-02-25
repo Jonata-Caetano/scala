@@ -1,5 +1,9 @@
-@main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
 
-def msg = "I was compiled by Scala 3. :)"
+@main
+def main(): Unit = {
+
+  println("Start Data Transformation!")
+  val transformData = new TransformData()
+  transformData.readAndTransformData()
+
+}
